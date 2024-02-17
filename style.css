@@ -36,3 +36,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container img {
+    width: 30%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
